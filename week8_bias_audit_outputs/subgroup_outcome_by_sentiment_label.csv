@@ -1,0 +1,3 @@
+group_column,group,n,accepted_count,rejected_count,accepted_rate,rejected_rate
+sentiment_label,positive,20035,10596,9439,0.5288744696780634,0.4711255303219366
+sentiment_label,negative,10114,4681,5433,0.4628238085821633,0.5371761914178367
