@@ -1,0 +1,29 @@
+speaker_role,most_common_category,share
+Lid Tweede Kamer,negative,0.5321756894790602
+lid Tweede Kamer,positive,0.7352784793300545
+minister van Binnenlandse Zaken en Koninkrijksrelaties,positive,1.0
+minister van Buitenlandse Zaken,positive,0.752
+minister van Defensie,positive,1.0
+minister van Financiën,positive,0.5864197530864198
+minister van Infrastructuur en Milieu,negative,0.7894736842105263
+minister van Infrastructuur en Waterstaat,positive,1.0
+minister van Justitie en Veiligheid,positive,0.7527272727272727
+"minister van Landbouw, Natuur en Voedselkwaliteit",positive,1.0
+minister van Sociale Zaken en Werkgelegenheid,positive,1.0
+"minister van Sociale Zaken en Werkgelegenheid, viceminister-president",positive,1.0
+minister van Veiligheid en Justitie,positive,1.0
+"minister van Volksgezondheid, Welzijn en Sport",positive,1.0
+minister voor Buitenlandse Handel en Ontwikkelingssamenwerking,positive,0.9227799227799228
+minister voor Klimaat en Energie,positive,1.0
+minister voor Rechtsbescherming,positive,1.0
+"minister-president, minister van Algemene Zaken",positive,0.7852941176470588
+"staatssecretaris Jeugd, Preventie en Sport",positive,1.0
+staatssecretaris van Defensie,negative,1.0
+staatssecretaris van Economische Zaken,negative,0.8752556237218814
+staatssecretaris van Financiën,negative,1.0
+staatssecretaris van Infrastructuur en Milieu,negative,0.5
+staatssecretaris van Infrastructuur en Waterstaat,negative,0.5
+staatssecretaris van Justitie en Veiligheid,positive,1.0
+"staatssecretaris van Landbouw, Visserij, Voedselzekerheid en Natuur",positive,1.0
+"staatssecretaris van Onderwijs, Cultuur en Wetenschap",positive,1.0
+staatssecretaris van Veiligheid en Justitie,positive,0.8456375838926175
