@@ -1,0 +1,3 @@
+cluster,n_parties,parties,mean_n_speeches,mean_speech_duration,mean_speaker_freq,mean_sentiment_score,mean_share_evening,mean_share_long_speeches,mean_accepted_rate
+0,8,"VVD, PvdA, D66, PVV, SP, GroenLinks, SGP, PvdD",2412.0,46.92378428346443,916.696818041384,0.2977086816651416,0.26369131312632,0.1464627276137577,0.5002713071024347
+1,3,"Other, CDA, ChristenUnie",3617.6666666666665,104.71317611180467,195.0964230279724,0.3192004436131792,0.1462275641901846,0.4037768401996252,0.4921340635507887

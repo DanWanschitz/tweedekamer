@@ -1,0 +1,10 @@
+file_name,exists,n_rows,n_columns,missing_cells,percent_missing_cells
+parliamentary_notebooks_speeches\speeches_clean.csv,True,30149,44,66581,0.050190870193191996
+parliamentary_notebooks_speeches\speeches_features.csv,True,30149,78,66581,0.02831279857051856
+parliamentary_notebooks_speeches\speeches_with_sentiment.csv,True,30149,83,66581,0.02660720829518612
+parliamentary_notebooks_speeches\speeches_modeling_30000.csv,True,30149,42,66581,0.05258091163096304
+feature-engineering\engineered_topics.csv,True,10592,11,2846,0.024426668497665477
+feature-engineering\engineered_topics2.csv,True,9055,13,0,0.0
+besluiten.csv,True,250,6,0,0.0
+agendapunten.csv,True,250,7,500,0.2857142857142857
+activiteiten.csv,True,250,9,13,0.0057777777777777775
