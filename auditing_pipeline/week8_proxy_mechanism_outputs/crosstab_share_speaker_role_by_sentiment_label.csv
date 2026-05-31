@@ -1,0 +1,29 @@
+speaker_role,negative,positive
+Lid Tweede Kamer,0.5321756894790602,0.46782431052093976
+lid Tweede Kamer,0.2647215206699455,0.7352784793300545
+minister van Binnenlandse Zaken en Koninkrijksrelaties,0.0,1.0
+minister van Buitenlandse Zaken,0.248,0.752
+minister van Defensie,0.0,1.0
+minister van Financiën,0.41358024691358025,0.5864197530864198
+minister van Infrastructuur en Milieu,0.7894736842105263,0.21052631578947367
+minister van Infrastructuur en Waterstaat,0.0,1.0
+minister van Justitie en Veiligheid,0.24727272727272728,0.7527272727272727
+"minister van Landbouw, Natuur en Voedselkwaliteit",0.0,1.0
+minister van Sociale Zaken en Werkgelegenheid,0.0,1.0
+"minister van Sociale Zaken en Werkgelegenheid, viceminister-president",0.0,1.0
+minister van Veiligheid en Justitie,0.0,1.0
+"minister van Volksgezondheid, Welzijn en Sport",0.0,1.0
+minister voor Buitenlandse Handel en Ontwikkelingssamenwerking,0.07722007722007722,0.9227799227799228
+minister voor Klimaat en Energie,0.0,1.0
+minister voor Rechtsbescherming,0.0,1.0
+"minister-president, minister van Algemene Zaken",0.21470588235294116,0.7852941176470588
+"staatssecretaris Jeugd, Preventie en Sport",0.0,1.0
+staatssecretaris van Defensie,1.0,0.0
+staatssecretaris van Economische Zaken,0.8752556237218814,0.12474437627811862
+staatssecretaris van Financiën,1.0,0.0
+staatssecretaris van Infrastructuur en Milieu,0.5,0.5
+staatssecretaris van Infrastructuur en Waterstaat,0.5,0.5
+staatssecretaris van Justitie en Veiligheid,0.0,1.0
+"staatssecretaris van Landbouw, Visserij, Voedselzekerheid en Natuur",0.0,1.0
+"staatssecretaris van Onderwijs, Cultuur en Wetenschap",0.0,1.0
+staatssecretaris van Veiligheid en Justitie,0.15436241610738255,0.8456375838926175

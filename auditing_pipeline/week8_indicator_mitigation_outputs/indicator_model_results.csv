@@ -1,0 +1,11 @@
+model_name,target_name,feature_set,used_features,train_n,test_n,accuracy,balanced_accuracy,precision_macro,recall_macro,f1_macro,precision_weighted,recall_weighted,f1_weighted,roc_auc
+Logistic Regression,is_voorzitter,visible debate indicators,21,24119,6030,0.9580431177446103,0.9527237323091005,0.9550187564631709,0.9527237323091005,0.9538530798385972,0.9579675087125743,0.9580431177446103,0.9579900792901038,0.9926454472425466
+Random Forest,is_voorzitter,visible debate indicators,21,24119,6030,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Hist Gradient Boosting,is_voorzitter,visible debate indicators,21,24119,6030,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Logistic Regression,speaker_party_clean,visible debate indicators,21,24119,6030,0.4072968490878939,0.46704401344085206,0.38895272602578035,0.46704401344085206,0.3723438745389874,0.5398154941002705,0.4072968490878939,0.4139035367950037,
+Random Forest,speaker_party_clean,visible debate indicators,21,24119,6030,0.9986733001658374,0.9983913047123951,0.997534651942419,0.9983913047123951,0.9979528914325116,0.9986856323255592,0.9986733001658374,0.9986752305334189,
+Logistic Regression,time_bin,visible debate indicators,21,24119,6030,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,
+Random Forest,time_bin,visible debate indicators,21,24119,6030,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,
+Logistic Regression,sentiment_label,visible debate indicators,21,24119,6030,0.9998341625207297,0.9998752183678563,0.9997529644268774,0.9998752183678563,0.9998140530903405,0.9998342444562431,0.9998341625207297,0.9998341726616427,0.9999986430074607
+Random Forest,sentiment_label,visible debate indicators,21,24119,6030,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+Hist Gradient Boosting,sentiment_label,visible debate indicators,21,24119,6030,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0

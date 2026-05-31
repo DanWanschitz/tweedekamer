@@ -112,22 +112,44 @@ Produces confusion matrices, ROC curves, and feature importance plots.
 |---|---|
 | **Input** | `speeches_final.csv` (rename `speeches_with_sentiment.csv` → `speeches_final.csv`, or update `DATA_DIR` to point at it), result JSONs from `DATA_DIR/outputs/` |
 
-Final visualisation report: KPI summary, time-of-day patterns, per-politician and per-party analysis, RobBERT sentiment deep dive, tone-over-day charts, model comparison. Also prints instructions for launching the Streamlit dashboard.
+Final visualisation report: KPI summary, time-of-day patterns, per-politician and per-party analysis, RobBERT sentiment deep dive, tone-over-day charts, model comparison.
 
 ---
 
-## Week 8 fairness scripts
+## Week 8 bias auditing scripts
 
-Run after NB4. All scripts expect `speeches_with_sentiment.csv` in `parliamentary_notebooks_speeches/` relative to the repo root.
+Run after NB4, **in numbered order**. All scripts expect `speeches_with_sentiment.csv` in `parliamentary_notebooks_speeches/` relative to the repo root and auto-detect the repo root, so they work whether you run them from inside `auditing/` or from the repo root.
 
 ```bash
-python week8_bias_audit.py
-python week8_bias_mitigation.py
-python week8_indicator_mitigation.py
-python week8_proxy_mechanism_audit.py
+python 01_bias_audit.py
+python 02_bias_mitigation.py
+python 03_indicator_mitigation.py
+python 04_proxy_mechanism_audit.py
 ```
 
-Output folders: `week8_bias_audit_outputs/`, `week8_bias_mitigation_outputs/`, `week8_indicator_mitigation_outputs/`, `week8_proxy_mechanism_outputs/`
+### `01_bias_audit.py` → `01_bias_audit_outputs/`
+
+**Diagnose** — find where bias could exist before trying to fix it.
+
+Checks missingness across columns and by subgroup, audits row loss across pipeline files, compares motion pass rates across groups, and trains three logistic regression models with progressively richer feature sets (temporal only → add speech/sentiment → add party) to detect omitted variable bias. Writes a full summary to `01_bias_audit_outputs/week8_bias_audit_summary.txt`.
+
+### `02_bias_mitigation.py` → `02_bias_mitigation_outputs/`
+
+**Fix** — implement concrete mitigations based on the audit findings.
+
+Adds missingness indicator columns, removes fully empty columns, and compares four model variants ending with threshold tuning (finds the classification threshold that minimises the recall gap between accepted vs rejected motions). Note: visibility bias from informal bargaining and lobbying cannot be fixed with public parliamentary data — the summary acknowledges this explicitly.
+
+### `03_indicator_mitigation.py` → `03_indicator_mitigation_outputs/`
+
+**Reframe** — test whether the features are direct causes or symptoms of deeper political mechanisms.
+
+Trains models that predict institutional variables (chair status, party, time bin) from visible debate features to check whether party patterns are embedded in them. Runs controlled outcome models comparing visible-only, institutional-only, and combined feature sets. Recommends framing the model as an *audit of visible indicators* rather than a claim that sentiment or speech duration directly causes outcomes.
+
+### `04_proxy_mechanism_audit.py` → `04_proxy_mechanism_outputs/`
+
+**Characterise** — show how visible variables are patterned by party, role, and topic.
+
+Runs association tests (eta-squared and Cramér's V), builds a detailed party profile table, clusters parties into behavioural groups using K-Means, and reduces party profiles to principal components via PCA. Writes a summary to `04_proxy_mechanism_outputs/proxy_mechanism_summary.txt`.
 
 ---
 
@@ -140,15 +162,20 @@ tweedekamer/
 │   ├── 02_preprocessing_features.ipynb
 │   ├── 03_robbert_sentiment_only_with_save.ipynb
 │   ├── 03_robbert_sentiment_tone.ipynb
-│   └── 04_predictive_modelling.ipynb
+│   ├── 04_predictive_modelling.ipynb
 │   └── 05_dashboard_report.ipynb
+├── auditing/                           ← week 8 bias auditing scripts
+│   ├── 01_bias_audit.py
+│   ├── 01_bias_audit_outputs/
+│   ├── 02_bias_mitigation.py
+│   ├── 02_bias_mitigation_outputs/
+│   ├── 03_indicator_mitigation.py
+│   ├── 03_indicator_mitigation_outputs/
+│   ├── 04_proxy_mechanism_audit.py
+│   └── 04_proxy_mechanism_outputs/
 ├── database/                           ← DB setup scripts
 ├── feature-engineering/                ← standalone feature experiments
 ├── scraping/                           ← Tweede Kamer API scraper
-├── week8_bias_audit.py
-├── week8_bias_mitigation.py
-├── week8_indicator_mitigation.py
-├── week8_proxy_mechanism_audit.py
-├── dashboard.py                        ← Streamlit dashboard
+├── dashboard.py
 └── speeches_clean.csv                  ← pre-cleaned snapshot
 ```

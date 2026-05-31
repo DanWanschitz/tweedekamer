@@ -1,0 +1,2 @@
+file_a,rows_a,file_b,rows_b,row_difference_a_minus_b,row_difference_rate_of_a,interpretation
+feature-engineering\engineered_topics.csv,10592,feature-engineering\engineered_topics2.csv,9055,1537,0.1451095166163142,Potential topic level data loss. This difference should be checked because filtering or joining topic files may remove observations in ways that are not random.

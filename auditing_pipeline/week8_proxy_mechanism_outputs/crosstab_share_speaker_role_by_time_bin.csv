@@ -1,0 +1,29 @@
+speaker_role,afternoon,evening,morning
+Lid Tweede Kamer,0.6069685620247418,0.3930314379752582,0.0
+lid Tweede Kamer,0.8185564269573309,0.0952412601355842,0.08620231290708494
+minister van Binnenlandse Zaken en Koninkrijksrelaties,1.0,0.0,0.0
+minister van Buitenlandse Zaken,0.96,0.04,0.0
+minister van Defensie,1.0,0.0,0.0
+minister van Financiën,1.0,0.0,0.0
+minister van Infrastructuur en Milieu,1.0,0.0,0.0
+minister van Infrastructuur en Waterstaat,0.9186046511627907,0.0,0.08139534883720931
+minister van Justitie en Veiligheid,0.88,0.12,0.0
+"minister van Landbouw, Natuur en Voedselkwaliteit",1.0,0.0,0.0
+minister van Sociale Zaken en Werkgelegenheid,0.10126582278481013,0.0,0.8987341772151899
+"minister van Sociale Zaken en Werkgelegenheid, viceminister-president",1.0,0.0,0.0
+minister van Veiligheid en Justitie,1.0,0.0,0.0
+"minister van Volksgezondheid, Welzijn en Sport",0.23770491803278687,0.0,0.7622950819672131
+minister voor Buitenlandse Handel en Ontwikkelingssamenwerking,1.0,0.0,0.0
+minister voor Klimaat en Energie,1.0,0.0,0.0
+minister voor Rechtsbescherming,1.0,0.0,0.0
+"minister-president, minister van Algemene Zaken",0.6970588235294117,0.3029411764705882,0.0
+"staatssecretaris Jeugd, Preventie en Sport",1.0,0.0,0.0
+staatssecretaris van Defensie,1.0,0.0,0.0
+staatssecretaris van Economische Zaken,0.6605316973415133,0.3394683026584867,0.0
+staatssecretaris van Financiën,1.0,0.0,0.0
+staatssecretaris van Infrastructuur en Milieu,1.0,0.0,0.0
+staatssecretaris van Infrastructuur en Waterstaat,1.0,0.0,0.0
+staatssecretaris van Justitie en Veiligheid,1.0,0.0,0.0
+"staatssecretaris van Landbouw, Visserij, Voedselzekerheid en Natuur",0.0,0.0,1.0
+"staatssecretaris van Onderwijs, Cultuur en Wetenschap",1.0,0.0,0.0
+staatssecretaris van Veiligheid en Justitie,1.0,0.0,0.0
