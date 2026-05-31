@@ -1,0 +1,29 @@
+speaker_role,count,mean,median,std
+"minister van Landbouw, Natuur en Voedselkwaliteit",62,0.999,0.999,0.0
+minister voor Klimaat en Energie,146,0.9987,0.9987,0.0
+minister voor Rechtsbescherming,218,0.9987,0.9987,0.0
+"staatssecretaris van Landbouw, Visserij, Voedselzekerheid en Natuur",182,0.9973999999999998,0.9974,0.0
+"minister van Sociale Zaken en Werkgelegenheid, viceminister-president",133,0.9948932330827067,0.994,0.000903377122559432
+minister van Sociale Zaken en Werkgelegenheid,158,0.9930848101265822,0.9975,0.013195087761986336
+minister van Defensie,53,0.9906,0.9906,0.0
+minister van Binnenlandse Zaken en Koninkrijksrelaties,286,0.9889601398601399,0.9801,0.009063868039640726
+"staatssecretaris Jeugd, Preventie en Sport",178,0.9611955056179776,0.9975,0.04075564890342832
+minister van Infrastructuur en Waterstaat,86,0.9142104651162791,0.9941,0.2699567438243611
+"minister van Volksgezondheid, Welzijn en Sport",488,0.9136491803278688,0.8912,0.10409440175010742
+minister van Veiligheid en Justitie,376,0.9134300531914894,0.9961,0.2281672543867704
+"staatssecretaris van Onderwijs, Cultuur en Wetenschap",142,0.8587612676056339,0.775,0.10863996289951158
+minister voor Buitenlandse Handel en Ontwikkelingssamenwerking,259,0.840857915057915,0.9973,0.533355251359003
+staatssecretaris van Justitie en Veiligheid,269,0.7771163568773234,0.9987,0.38210373741873366
+staatssecretaris van Veiligheid en Justitie,298,0.6977080536912752,0.9963,0.7007543778791097
+minister van Justitie en Veiligheid,825,0.5922386666666667,0.9836,0.6893783767854113
+"minister-president, minister van Algemene Zaken",340,0.5750879411764706,0.9872,0.7489130535459773
+minister van Buitenlandse Zaken,250,0.5079196,0.99,0.8373032466695526
+lid Tweede Kamer,15046,0.4715192675794231,0.9714,0.7454152944700908
+staatssecretaris van Infrastructuur en Milieu,82,0.29645,0.29645000000000005,0.35341155886341863
+minister van Financiën,324,0.1733777777777778,0.9989,0.9838375500516541
+staatssecretaris van Infrastructuur en Waterstaat,154,-4.999999999999449e-05,-4.999999999999449e-05,1.0016072680342756
+Lid Tweede Kamer,8811,-0.07939280444898422,-0.452,0.8829369122046394
+minister van Infrastructuur en Milieu,171,-0.5698590643274855,-0.9937,0.8106454659657848
+staatssecretaris van Economische Zaken,489,-0.7423092024539877,-0.9925,0.6573262950881559
+staatssecretaris van Financiën,56,-0.85,-0.85,0.0
+staatssecretaris van Defensie,146,-0.9893999999999998,-0.9894,0.0

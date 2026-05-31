@@ -1,0 +1,5 @@
+model_name,true_rejected_pred_rejected,true_rejected_pred_accepted,true_accepted_pred_rejected,true_accepted_pred_accepted
+Baseline A structural temporal,1903,1071,1520,1536
+Baseline C with party indicators,1855,1119,1406,1650
+Mitigated D with missingness indicators,1848,1126,1405,1651
+Mitigated D with threshold tuning,1733,1241,1308,1748
