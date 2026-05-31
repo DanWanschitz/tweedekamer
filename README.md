@@ -105,16 +105,6 @@ Trains and evaluates:
 
 Produces confusion matrices, ROC curves, and feature importance plots.
 
----
-
-### NB5 — `05_dashboard_report.ipynb`
-| | |
-|---|---|
-| **Input** | `speeches_final.csv` (rename `speeches_with_sentiment.csv` → `speeches_final.csv`, or update `DATA_DIR` to point at it), result JSONs from `DATA_DIR/outputs/` |
-
-Final visualisation report: KPI summary, time-of-day patterns, per-politician and per-party analysis, RobBERT sentiment deep dive, tone-over-day charts, model comparison.
-
----
 
 ## Week 8 bias auditing scripts
 
