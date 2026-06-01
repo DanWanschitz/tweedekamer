@@ -1,7 +1,0 @@
-week_goal_requirement,coded_component,output_file,covered
-Systematic bias audit strategy,Full script sections run in fixed order,week8_bias_audit_summary.txt,yes
-Identified biases,Bias hypothesis summary table,bias_hypothesis_summary.csv,yes
-Testing methods used,"Missingness audit, linkage audit, subgroup outcome audit, feature set comparison, class performance audit, subgroup performance audit, robustness checks",missingness_overall.csv; pipeline_file_audit.csv; subgroup outcome files; feature_set_model_comparison.csv; outcome_class_performance.csv; subgroup_performance_audit.csv; robustness_checks.csv,yes
-Bias mitigation strategies,Mitigation column in bias hypothesis summary,bias_hypothesis_summary.csv,yes
-Connection to data cleaning,Missingness audit and pipeline row loss audit,missingness_overall.csv; pipeline_file_audit.csv; topic_file_comparison.csv,yes
-Stand Up Report evidence,Summary text plus presentation ready tables,week8_bias_audit_summary.txt; bias_hypothesis_summary.csv,yes

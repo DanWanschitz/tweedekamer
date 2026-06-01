@@ -1,5 +1,0 @@
-mitigation_question,coded_test,output_file
-Do visible debate variables directly predict outcomes?,Outcome model with visible debate indicators only,controlled_outcome_model_results.csv
-Do visible debate variables indicate deeper context?,"Indicator models predicting chair status, party, time bin, long speech flag, and sentiment label",indicator_model_results.csv
-Do visible variables still add value after institutional controls?,"Controlled outcome models comparing visible only, institutional only, and combined feature sets",controlled_outcome_model_results.csv
-How should the results be interpreted?,Proxy interpretation summary,proxy_interpretation_summary.txt

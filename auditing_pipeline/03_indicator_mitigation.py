@@ -44,7 +44,7 @@ MIN_CLASS_COUNT = 100
 
 
 def find_repo_root() -> Path:
-    expected = Path("parliamentary_notebooks_speeches") / "speeches_with_sentiment.csv"
+    expected = Path("mindless_machine_pipeline/data") / "speeches_with_sentiment.csv"
 
     candidates = []
     cwd = Path.cwd().resolve()
@@ -85,7 +85,7 @@ def find_repo_root() -> Path:
 
 
 REPO_ROOT = find_repo_root()
-DATA_PATH = REPO_ROOT / "parliamentary_notebooks_speeches" / "speeches_with_sentiment.csv"
+DATA_PATH = REPO_ROOT / "mindless_machine_pipeline/data" / "speeches_with_sentiment.csv"
 OUTPUT_DIR = REPO_ROOT / "03_indicator_mitigation_outputs"
 
 

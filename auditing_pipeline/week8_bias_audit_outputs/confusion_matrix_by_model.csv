@@ -1,4 +1,0 @@
-model_name,true_rejected_pred_rejected,true_rejected_pred_accepted,true_accepted_pred_rejected,true_accepted_pred_accepted
-Model A structural temporal only,1903,1071,1520,1536
-Model B add speech and sentiment,1866,1108,1459,1597
-Model C add party indicators,1855,1119,1406,1650

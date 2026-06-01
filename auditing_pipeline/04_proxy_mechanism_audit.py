@@ -16,7 +16,7 @@ Run from the repository root with:
     py -3.12 week8_proxy_mechanism_audit.py
 
 Main input:
-    parliamentary_notebooks_speeches/speeches_with_sentiment.csv
+    mindless_machine_pipeline/data/speeches_with_sentiment.csv
 
 Optional topic input:
     feature-engineering/engineered_topics2.csv
@@ -59,7 +59,7 @@ MAX_CATEGORY_LEVELS = 40
 # ---------------------------------------------------------------------------
 
 def find_repo_root() -> Path:
-    expected = Path("parliamentary_notebooks_speeches") / "speeches_with_sentiment.csv"
+    expected = Path("mindless_machine_pipeline/data") / "speeches_with_sentiment.csv"
 
     candidates: List[Path] = []
     cwd = Path.cwd().resolve()
@@ -100,7 +100,7 @@ def find_repo_root() -> Path:
 
 
 REPO_ROOT = find_repo_root()
-SPEECH_DATA_PATH = REPO_ROOT / "parliamentary_notebooks_speeches" / "speeches_with_sentiment.csv"
+SPEECH_DATA_PATH = REPO_ROOT / "mindless_machine_pipeline/data" / "speeches_with_sentiment.csv"
 TOPIC_DATA_PATH = REPO_ROOT / "feature-engineering" / "engineered_topics2.csv"
 OUTPUT_DIR = REPO_ROOT / "04_proxy_mechanism_outputs"
 

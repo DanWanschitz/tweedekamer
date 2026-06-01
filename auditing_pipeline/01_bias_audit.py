@@ -15,7 +15,7 @@ Run from the repository root with:
 
 Expected main dataset:
 
-    parliamentary_notebooks_speeches/speeches_with_sentiment.csv
+    mindless_machine_pipeline/data/speeches_with_sentiment.csv
 
 Outputs are written to:
 
@@ -63,7 +63,7 @@ def find_repo_root() -> Path:
     Find the repository root by looking for the expected modelling dataset.
     This helps when the script is run from VS Code, Downloads, or PowerShell.
     """
-    expected_relative_path = Path("parliamentary_notebooks_speeches") / "speeches_with_sentiment.csv"
+    expected_relative_path = Path("mindless_machine_pipeline/data") / "speeches_with_sentiment.csv"
 
     candidate_roots: List[Path] = []
 
@@ -111,7 +111,7 @@ def find_repo_root() -> Path:
 
 
 REPO_ROOT = find_repo_root()
-DATA_DIR = REPO_ROOT / "parliamentary_notebooks_speeches"
+DATA_DIR = REPO_ROOT / "mindless_machine_pipeline/data"
 MAIN_DATA_PATH = DATA_DIR / "speeches_with_sentiment.csv"
 FEATURE_META_PATH = DATA_DIR / "feature_cols.json"
 CLASS_META_PATH = DATA_DIR / "class_meta.json"

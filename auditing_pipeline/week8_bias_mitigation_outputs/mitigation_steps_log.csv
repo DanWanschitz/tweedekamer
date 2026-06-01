@@ -1,6 +1,0 @@
-mitigation_step,reason,implemented_column
-Add speaker party missingness flag,speaker_party had notable missingness in the audit,speaker_party_missing
-Add raw agenda time missingness flag,Aanvangstijd_y and Eindtijd_y were fully missing in the audit,raw_agenda_time_missing
-Add sentiment availability flag,sentiment is an engineered feature and should be checked as available,sentiment_available
-Add extreme speech duration flag,long speeches may indicate agenda access and visibility,speech_duration_extreme
-Remove fully missing columns,fully missing columns cannot contribute direct predictive information,"Aanvangstijd_y, Eindtijd_y"
